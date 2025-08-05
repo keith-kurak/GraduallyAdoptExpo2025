@@ -18,7 +18,10 @@
       }
     },
     "ios": {
-      "bundleIdentifier": "org.reactjs.native.example.GraduallyAdoptExpo2025"
+      "bundleIdentifier": "org.reactjs.native.example.GraduallyAdoptExpo2025",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "plugins": [
       [
