@@ -1,4 +1,5 @@
 import UIKit
+import Expo
 import React
 import React_RCTAppDelegate
 import ReactAppDependencyProvider
