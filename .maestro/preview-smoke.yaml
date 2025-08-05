@@ -1,0 +1,4 @@
+appId: org.reactjs.native.example.GraduallyAdoptExpo2025
+---
+- launchApp
+- assertVisible: '.*Welcome to React Native.*'
