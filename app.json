@@ -28,7 +28,7 @@
             "minSdkVersion": 29
           },
           "ios": {
-            "deploymentTarget": "15.0"
+            "deploymentTarget": "15.2"
           }
         }
       ]
