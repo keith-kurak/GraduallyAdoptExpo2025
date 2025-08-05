@@ -1,4 +1,10 @@
 {
   "name": "GraduallyAdoptExpo2025",
-  "displayName": "GraduallyAdoptExpo2025"
+  "displayName": "GraduallyAdoptExpo2025",
+  "extra": {
+    "eas": {
+      "projectId": "a1717b27-eba4-46d1-ac64-5d41f2befb97"
+    }
+  },
+  "owner": "expo-production"
 }
