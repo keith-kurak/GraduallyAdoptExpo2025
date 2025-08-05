@@ -78,3 +78,7 @@ yarn-error.log
 .expo
 dist/
 web-build/
+
+## Ignore native folders so EAS Build will run prebuild
+/android
+/ios

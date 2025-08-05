@@ -1,16 +1,49 @@
 {
-  "name": "GraduallyAdoptExpo2025",
-  "displayName": "GraduallyAdoptExpo2025",
-  "extra": {
-    "eas": {
-      "projectId": "a1717b27-eba4-46d1-ac64-5d41f2befb97"
+  "expo": {
+    "slug": "graduallyadoptexpo2025",
+    "name": "GraduallyAdoptExpo2025",
+    "version": "1.0.0",
+    "owner": "expo-production",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.graduallyadoptexpo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "org.reactjs.native.example.GraduallyAdoptExpo2025",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29
+          },
+          "ios": {
+            "deploymentTarget": "15.2"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a1717b27-eba4-46d1-ac64-5d41f2befb97"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a1717b27-eba4-46d1-ac64-5d41f2befb97"
     }
-  },
-  "owner": "expo-production",
-  "runtimeVersion": "1.0.0",
-  "updates": {
-    "url": "https://u.expo.dev/a1717b27-eba4-46d1-ac64-5d41f2befb97"
-  },
-  "android": {},
-  "ios": {}
+  }
 }
